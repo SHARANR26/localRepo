@@ -1,3 +1,37 @@
+/* Basic Reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Styles */
+h1 {
+    color: #333333; /* Dark grey color for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Paragraph Styles */
 p {
-    color: aqua;
+    color: #666666; /* Medium grey color for the paragraph */
+    font-size: 16px; /* Slightly larger font size */
 }
